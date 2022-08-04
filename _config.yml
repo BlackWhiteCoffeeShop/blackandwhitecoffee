@@ -1,11 +1,11 @@
 title: The Black And White Coffee
 email: 
 description: > # Official website for the Black And White Coffee and Boba Shop in Pleasanton, CA. 
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "blackandwhitecoffee" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
 twitter_username:
 github_username:
 
 # Build settings
-markdown: kramdown
+markdown: kramdownz
