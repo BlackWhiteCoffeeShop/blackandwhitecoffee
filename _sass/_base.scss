@@ -60,7 +60,12 @@ section {
 }
 
 aside {
-    padding: 50px 0;
+    padding: 50px 10px;
+    color: $theme-primary;
+}
+
+.padded {
+    padding: 10x 10px;
 }
 
 .no-padding {
@@ -138,7 +143,7 @@ aside {
             }
             .nav > li > a,
             .nav > li > a:focus {
-                color: $theme-dark;
+                color: $theme-primary;
                 &:hover {
                     color: $theme-primary;
                 }
@@ -146,6 +151,13 @@ aside {
         }
     }
 }
+
+.highlight{
+    display: inline-block;
+    padding: .25em 0;
+    background: #000000;
+    color: #ffffff;
+  }
 
 // Homepage Header
 
@@ -171,13 +183,14 @@ header {
                 margin-bottom: 0;
             }
             hr {
-                margin: 30px auto;
+               margin: 1px auto;
             }
             p {
                 font-weight: 300;
                 color: rgba(white, .7);
                 font-size: 16px;
                 margin-bottom: 50px;
+                padding: 10px 15px 10px;
             }
         }
     }
@@ -317,8 +330,9 @@ header {
 
 // Contact
 #contact .fa {
-    color: $theme-dark;
+    //color: $theme-dark;
     font-size: 4em;
+    padding: 5px 5px;
 }
 
 // Extras
